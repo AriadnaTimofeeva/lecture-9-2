@@ -6,7 +6,7 @@
 
 function sum() {
     let total = 0; 
-    // Используем объект arguments для итерации по переданным параметрам
+
     for (let i = 0; i < arguments.length; i++) {
         total += arguments[i];
     }
